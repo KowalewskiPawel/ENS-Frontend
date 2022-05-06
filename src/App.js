@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
+import contractAbi from "./utils/contractABI.json";
 import "./styles/App.css";
 
 const tld = ".ninja";

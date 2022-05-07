@@ -4,7 +4,7 @@ import contractAbi from "./utils/contractABI.json";
 import "./styles/App.css";
 
 const tld = ".ninja";
-const CONTRACT_ADDRESS = "YOUR_CONTRACT_ADDRESS_HERE";
+const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import contractAbi from "./utils/contractABI.json";
+import contractAbi from "./utils/Domains.json";
 import { networks } from "./utils/networks";
 import "./styles/App.css";
 
 const tld = ".ninja";
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const CONTRACT_ADDRESS = "0xF2661172fF07b3ad2485BCD656D7f1D328114937";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
